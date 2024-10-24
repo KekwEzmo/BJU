@@ -1,0 +1,67 @@
+# Ignore user-specific and auto-generated files.
+*.log
+*.temp
+*.tmp
+*.user
+*.ts
+*.opendb
+*.suo
+*.userprefs
+*.sln.docstates
+
+# Ignore binary files and builds.
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# Ignore project build files.
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+*.vscode/
+*.VC.db-wal
+.vs/
+
+# Ignore Unreal auto-generated folders and files.
+*.dll
+*.exe
+*.lib
+*.pdb
+*.obj
+*.o
+*.class
+*.so
+*.idb
+*.DS_Store
+*.sln
+*.sln.docstates
+
+# Ignore specific Unreal Engine files
+*.xcodeproj
+*.xcworkspace
+*.generated.cs
+*.generated.cpp
+*.generated.h
+*.ncb
+*.sublime-workspace
+*.sublime-project
+*.code-workspace
+
+# Ignore builds and launcher
+Build/ 
+.DDC/
+*.uprojectdirs
+
+# Ignore packaged project files
+*.pak
+*.target
+*.db
+
+# Ignore content folder backups
+*.umap
+*.uasset
+*.fbx
+Content/Backup/
